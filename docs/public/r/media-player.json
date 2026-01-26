@@ -12,7 +12,7 @@
     "slider",
     "tooltip",
     "dropdown-menu",
-    "@diceui/use-lazy-ref"
+    "@aloeui/use-lazy-ref"
   ],
   "files": [
     {

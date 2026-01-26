@@ -1,4 +1,4 @@
-import { Primitive, useComposedRefs } from "@diceui/shared";
+import { Primitive, useComposedRefs } from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxItemContext } from "./combobox-item";
 

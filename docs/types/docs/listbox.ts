@@ -4,7 +4,7 @@ import type {
   ListboxItemIndicatorProps,
   ListboxItemProps,
   ListboxRootProps,
-} from "@diceui/listbox";
+} from "@aloeui/listbox";
 import type * as React from "react";
 import type { ControlledProps } from "@/types";
 

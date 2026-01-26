@@ -6,8 +6,8 @@
     ],
     "registryDependencies": [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect"
     ],
     "files": [
       {
@@ -28,9 +28,9 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -81,7 +81,7 @@
   {
     "name": "checkbox-group",
     "dependencies": [
-      "@diceui/checkbox-group"
+      "@aloeui/checkbox-group"
     ],
     "files": [
       {
@@ -131,9 +131,9 @@
       "input",
       "popover",
       "select",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -170,9 +170,9 @@
       "@radix-ui/react-slot"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -192,9 +192,9 @@
       "@radix-ui/react-slot"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -211,7 +211,7 @@
   {
     "name": "combobox",
     "dependencies": [
-      "@diceui/combobox",
+      "@aloeui/combobox",
       "@dnd-kit/core",
       "@dnd-kit/modifiers",
       "@dnd-kit/sortable",
@@ -233,9 +233,9 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -260,8 +260,8 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -329,9 +329,9 @@
       "button",
       "input",
       "textarea",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -352,7 +352,7 @@
   {
     "name": "listbox",
     "dependencies": [
-      "@diceui/listbox"
+      "@aloeui/listbox"
     ],
     "files": [
       {
@@ -460,11 +460,11 @@
   {
     "name": "masonry",
     "dependencies": [
-      "@diceui/masonry",
+      "@aloeui/masonry",
       "@radix-ui/react-slot"
     ],
     "registryDependencies": [
-      "@diceui/use-isomorphic-layout-effect"
+      "@aloeui/use-isomorphic-layout-effect"
     ],
     "files": [
       {
@@ -492,7 +492,7 @@
       "slider",
       "tooltip",
       "dropdown-menu",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -509,7 +509,7 @@
   {
     "name": "mention",
     "dependencies": [
-      "@diceui/mention"
+      "@aloeui/mention"
     ],
     "files": [
       {
@@ -559,9 +559,9 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -600,9 +600,9 @@
     ],
     "registryDependencies": [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -644,9 +644,9 @@
     ],
     "registryDependencies": [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -708,9 +708,9 @@
     ],
     "registryDependencies": [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -730,9 +730,9 @@
       "@radix-ui/react-slot"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -752,7 +752,7 @@
       "@types/qrcode"
     ],
     "registryDependencies": [
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -769,9 +769,9 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -792,7 +792,7 @@
   {
     "name": "tags-input",
     "dependencies": [
-      "@diceui/tags-input"
+      "@aloeui/tags-input"
     ],
     "files": [
       {
@@ -809,8 +809,8 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -831,9 +831,9 @@
     ],
     "registryDependencies": [
       "popover",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {
@@ -867,9 +867,9 @@
       "@radix-ui/react-direction"
     ],
     "registryDependencies": [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref"
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref"
     ],
     "files": [
       {

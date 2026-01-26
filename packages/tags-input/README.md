@@ -5,11 +5,11 @@ Tags Input is a component that allows users to input tags.
 ## Installation
 
 ```bash
-npm install @diceui/tags-input
+npm install @aloeui/tags-input
 # or
-pnpm add @diceui/tags-input
+pnpm add @aloeui/tags-input
 # or
-yarn add @diceui/tags-input
+yarn add @aloeui/tags-input
 # or
-bun add @diceui/tags-input
+bun add @aloeui/tags-input
 ```

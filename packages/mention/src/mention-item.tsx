@@ -6,7 +6,7 @@ import {
   Primitive,
   useId,
   useIsomorphicLayoutEffect,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { type ItemData, useMentionContext } from "./mention-root";
 

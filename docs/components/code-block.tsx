@@ -12,7 +12,7 @@ function getIsInstallCommand(code: string): boolean {
   return (
     INSTALL_COMMAND_REGEX.test(trimmed) ||
     trimmed.includes("shadcn") ||
-    trimmed.includes("@diceui/")
+    trimmed.includes("@aloeui/")
   );
 }
 

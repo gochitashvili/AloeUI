@@ -1,4 +1,4 @@
-# @diceui/listbox
+# @aloeui/listbox
 
 ## 0.2.0
 

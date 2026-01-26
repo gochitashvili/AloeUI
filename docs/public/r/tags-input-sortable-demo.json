@@ -1,7 +1,7 @@
 {
   "name": "tags-input-sortable-demo",
   "dependencies": [
-    "@diceui/tags-input",
+    "@aloeui/tags-input",
     "@dnd-kit/core",
     "@dnd-kit/modifiers",
     "@dnd-kit/sortable",

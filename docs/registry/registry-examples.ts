@@ -175,7 +175,7 @@ export const examples: Registry["items"] = [
   {
     name: "checkbox-group-demo",
     type: "registry:example",
-    dependencies: ["@diceui/checkbox-group", "lucide-react"],
+    dependencies: ["@aloeui/checkbox-group", "lucide-react"],
     registryDependencies: ["checkbox-group"],
     files: [
       {
@@ -187,7 +187,7 @@ export const examples: Registry["items"] = [
   {
     name: "checkbox-group-animated-demo",
     type: "registry:example",
-    dependencies: ["@diceui/checkbox-group", "lucide-react"],
+    dependencies: ["@aloeui/checkbox-group", "lucide-react"],
     registryDependencies: ["checkbox-group"],
     files: [
       {
@@ -199,7 +199,7 @@ export const examples: Registry["items"] = [
   {
     name: "checkbox-group-horizontal-demo",
     type: "registry:example",
-    dependencies: ["@diceui/checkbox-group", "lucide-react"],
+    dependencies: ["@aloeui/checkbox-group", "lucide-react"],
     registryDependencies: ["checkbox-group"],
     files: [
       {
@@ -211,7 +211,7 @@ export const examples: Registry["items"] = [
   {
     name: "checkbox-group-multi-selection-demo",
     type: "registry:example",
-    dependencies: ["@diceui/checkbox-group", "lucide-react"],
+    dependencies: ["@aloeui/checkbox-group", "lucide-react"],
     registryDependencies: ["checkbox-group"],
     files: [
       {
@@ -223,7 +223,7 @@ export const examples: Registry["items"] = [
   {
     name: "checkbox-group-validation-demo",
     type: "registry:example",
-    dependencies: ["@diceui/checkbox-group", "lucide-react"],
+    dependencies: ["@aloeui/checkbox-group", "lucide-react"],
     registryDependencies: ["checkbox-group"],
     files: [
       {
@@ -1267,7 +1267,7 @@ export const examples: Registry["items"] = [
   {
     name: "mention-demo",
     type: "registry:example",
-    dependencies: ["@diceui/mention", "lucide-react"],
+    dependencies: ["@aloeui/mention", "lucide-react"],
     files: [
       {
         path: "examples/mention-demo.tsx",
@@ -1278,7 +1278,7 @@ export const examples: Registry["items"] = [
   {
     name: "mention-custom-filter-demo",
     type: "registry:example",
-    dependencies: ["@diceui/mention", "lucide-react"],
+    dependencies: ["@aloeui/mention", "lucide-react"],
     files: [
       {
         path: "examples/mention-custom-filter-demo.tsx",
@@ -1289,7 +1289,7 @@ export const examples: Registry["items"] = [
   {
     name: "mention-custom-trigger-demo",
     type: "registry:example",
-    dependencies: ["@diceui/mention", "lucide-react"],
+    dependencies: ["@aloeui/mention", "lucide-react"],
     files: [
       {
         path: "examples/mention-custom-trigger-demo.tsx",
@@ -1876,7 +1876,7 @@ export const examples: Registry["items"] = [
   {
     name: "tags-input-demo",
     type: "registry:example",
-    dependencies: ["@diceui/tags-input", "lucide-react"],
+    dependencies: ["@aloeui/tags-input", "lucide-react"],
     registryDependencies: ["tags-input"],
     files: [
       {
@@ -1888,7 +1888,7 @@ export const examples: Registry["items"] = [
   {
     name: "tags-input-editable-demo",
     type: "registry:example",
-    dependencies: ["@diceui/tags-input", "lucide-react"],
+    dependencies: ["@aloeui/tags-input", "lucide-react"],
     registryDependencies: ["button", "tags-input"],
     files: [
       {
@@ -1901,7 +1901,7 @@ export const examples: Registry["items"] = [
     name: "tags-input-sortable-demo",
     type: "registry:example",
     dependencies: [
-      "@diceui/tags-input",
+      "@aloeui/tags-input",
       "@dnd-kit/core",
       "@dnd-kit/modifiers",
       "@dnd-kit/sortable",
@@ -1919,7 +1919,7 @@ export const examples: Registry["items"] = [
   {
     name: "tags-input-validation-demo",
     type: "registry:example",
-    dependencies: ["@diceui/tags-input", "lucide-react"],
+    dependencies: ["@aloeui/tags-input", "lucide-react"],
     registryDependencies: ["button", "tags-input"],
     files: [
       {

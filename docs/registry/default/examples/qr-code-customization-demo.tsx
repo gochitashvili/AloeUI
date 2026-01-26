@@ -9,7 +9,7 @@ export default function QRCodeCustomizationDemo() {
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
       <div className="flex flex-col items-center gap-2">
         <QRCode
-          value="https://diceui.com"
+          value="https://aloeui.com"
           size={150}
           foregroundColor="#3b82f6"
           backgroundColor="#f1f5f9"
@@ -22,7 +22,7 @@ export default function QRCodeCustomizationDemo() {
 
       <div className="flex flex-col items-center gap-2">
         <QRCode
-          value="https://diceui.com"
+          value="https://aloeui.com"
           size={150}
           level="H"
           foregroundColor="#dc2626"

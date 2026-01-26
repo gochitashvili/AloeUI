@@ -1,10 +1,10 @@
-# [Dice UI](https://diceui.com/docs)
+# [AloeUI](https://aloeui.com/docs)
 
 Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable.
 
 ## Documentation
 
-Get started with [Dice UI](https://diceui.com/docs).
+Get started with [AloeUI](https://aloeui.com/docs).
 
 ## Contributing
 

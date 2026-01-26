@@ -214,7 +214,7 @@ describe("TagsInput", () => {
     });
 
     const tagText = screen.getByText("initial tag");
-    const tagContainer = tagText.closest("[data-dice-collection-item]");
+    const tagContainer = tagText.closest("[data-aloe-collection-item]");
 
     if (!tagContainer) {
       throw new Error("Tag container not found");

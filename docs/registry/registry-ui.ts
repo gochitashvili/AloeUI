@@ -7,8 +7,8 @@ export const ui: Registry["items"] = [
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
     ],
     files: [
       {
@@ -26,9 +26,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -74,7 +74,7 @@ export const ui: Registry["items"] = [
   {
     name: "checkbox-group",
     type: "registry:ui",
-    dependencies: ["@diceui/checkbox-group"],
+    dependencies: ["@aloeui/checkbox-group"],
     files: [
       {
         path: "ui/checkbox-group.tsx",
@@ -121,9 +121,9 @@ export const ui: Registry["items"] = [
       "input",
       "popover",
       "select",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -156,9 +156,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -176,9 +176,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -195,7 +195,7 @@ export const ui: Registry["items"] = [
     name: "combobox",
     type: "registry:ui",
     dependencies: [
-      "@diceui/combobox",
+      "@aloeui/combobox",
       "@dnd-kit/core",
       "@dnd-kit/modifiers",
       "@dnd-kit/sortable",
@@ -214,9 +214,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -237,7 +237,7 @@ export const ui: Registry["items"] = [
     name: "file-upload",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
-    registryDependencies: ["@diceui/use-as-ref", "@diceui/use-lazy-ref"],
+    registryDependencies: ["@aloeui/use-as-ref", "@aloeui/use-lazy-ref"],
     files: [
       {
         path: "ui/file-upload.tsx",
@@ -300,9 +300,9 @@ export const ui: Registry["items"] = [
       "button",
       "input",
       "textarea",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -322,7 +322,7 @@ export const ui: Registry["items"] = [
   {
     name: "listbox",
     type: "registry:ui",
-    dependencies: ["@diceui/listbox"],
+    dependencies: ["@aloeui/listbox"],
     files: [
       {
         path: "ui/listbox.tsx",
@@ -429,8 +429,8 @@ export const ui: Registry["items"] = [
   {
     name: "masonry",
     type: "registry:ui",
-    dependencies: ["@diceui/masonry", "@radix-ui/react-slot"],
-    registryDependencies: ["@diceui/use-isomorphic-layout-effect"],
+    dependencies: ["@aloeui/masonry", "@radix-ui/react-slot"],
+    registryDependencies: ["@aloeui/use-isomorphic-layout-effect"],
     files: [
       {
         path: "ui/masonry.tsx",
@@ -458,7 +458,7 @@ export const ui: Registry["items"] = [
       "slider",
       "tooltip",
       "dropdown-menu",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -474,7 +474,7 @@ export const ui: Registry["items"] = [
   {
     name: "mention",
     type: "registry:ui",
-    dependencies: ["@diceui/mention"],
+    dependencies: ["@aloeui/mention"],
     files: [
       {
         path: "ui/mention.tsx",
@@ -514,9 +514,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -547,9 +547,9 @@ export const ui: Registry["items"] = [
     dependencies: ["@floating-ui/react-dom", "@radix-ui/react-slot"],
     registryDependencies: [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -589,9 +589,9 @@ export const ui: Registry["items"] = [
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -644,9 +644,9 @@ export const ui: Registry["items"] = [
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
       "button",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -664,9 +664,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -680,7 +680,7 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "qrcode"],
     devDependencies: ["@types/qrcode"],
-    registryDependencies: ["@diceui/use-lazy-ref"],
+    registryDependencies: ["@aloeui/use-lazy-ref"],
     files: [
       {
         path: "ui/qr-code.tsx",
@@ -693,9 +693,9 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -715,7 +715,7 @@ export const ui: Registry["items"] = [
   {
     name: "tags-input",
     type: "registry:ui",
-    dependencies: ["@diceui/tags-input"],
+    dependencies: ["@aloeui/tags-input"],
     files: [
       {
         path: "ui/tags-input.tsx",
@@ -728,8 +728,8 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot", "@radix-ui/react-direction"],
     registryDependencies: [
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {
@@ -748,9 +748,9 @@ export const ui: Registry["items"] = [
     dependencies: ["@radix-ui/react-slot"],
     registryDependencies: [
       "popover",
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     css: {
       "@utility scrollbar-none": {
@@ -784,9 +784,9 @@ export const ui: Registry["items"] = [
       "@radix-ui/react-direction",
     ],
     registryDependencies: [
-      "@diceui/use-as-ref",
-      "@diceui/use-isomorphic-layout-effect",
-      "@diceui/use-lazy-ref",
+      "@aloeui/use-as-ref",
+      "@aloeui/use-isomorphic-layout-effect",
+      "@aloeui/use-lazy-ref",
     ],
     files: [
       {

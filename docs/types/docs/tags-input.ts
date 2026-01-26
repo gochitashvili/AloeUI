@@ -6,7 +6,7 @@ import type {
   TagsInputItemTextProps,
   TagsInputLabelProps,
   TagsInputRootProps,
-} from "@diceui/tags-input";
+} from "@aloeui/tags-input";
 import type * as React from "react";
 import type { ControlledProps } from "@/types";
 

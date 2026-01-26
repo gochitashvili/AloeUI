@@ -5,8 +5,8 @@
     "@radix-ui/react-direction"
   ],
   "registryDependencies": [
-    "@diceui/use-as-ref",
-    "@diceui/use-lazy-ref"
+    "@aloeui/use-as-ref",
+    "@aloeui/use-lazy-ref"
   ],
   "files": [
     {

@@ -5,11 +5,11 @@ Mention is a component that allows to mention items in a list by a trigger chara
 ## Installation
 
 ```bash
-npm install @diceui/mention
+npm install @aloeui/mention
 # or
-pnpm add @diceui/mention
+pnpm add @aloeui/mention
 # or
-yarn add @diceui/mention
+yarn add @aloeui/mention
 # or
-bun add @diceui/mention
+bun add @aloeui/mention
 ```

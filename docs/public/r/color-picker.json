@@ -10,9 +10,9 @@
     "input",
     "popover",
     "select",
-    "@diceui/use-as-ref",
-    "@diceui/use-isomorphic-layout-effect",
-    "@diceui/use-lazy-ref"
+    "@aloeui/use-as-ref",
+    "@aloeui/use-isomorphic-layout-effect",
+    "@aloeui/use-lazy-ref"
   ],
   "files": [
     {

@@ -11,7 +11,7 @@ import {
   useId,
   useItemCollection,
   VisuallyHiddenInput,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import type { TagsInputInput } from "./tags-input-input";
 

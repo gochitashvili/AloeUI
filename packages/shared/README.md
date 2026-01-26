@@ -1,17 +1,17 @@
 # Shared
 
-Shared is a package that contains shared utilities for the Dice UI library.
+Shared is a package that contains shared utilities for the AloeUI library.
 
-> **Note:** This package is intended for internal use only and is not meant for public consumption. It contains utilities specific to the Dice UI ecosystem.
+> **Note:** This package is intended for internal use only and is not meant for public consumption. It contains utilities specific to the AloeUI ecosystem.
 
 ## Installation
 
 ```bash
-npm install @diceui/shared
+npm install @aloeui/shared
 # or
-pnpm add @diceui/shared
+pnpm add @aloeui/shared
 # or
-yarn add @diceui/shared
+yarn add @aloeui/shared
 # or
-bun add @diceui/shared
+bun add @aloeui/shared
 ```

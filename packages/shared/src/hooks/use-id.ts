@@ -20,7 +20,7 @@ function useId(deterministicId?: string): string {
   useLayoutEffect(() => {
     if (!deterministicId) setId((reactId) => reactId ?? String(count++));
   }, [deterministicId]);
-  return deterministicId || (id ? `dice-${id}` : "");
+  return deterministicId || (id ? `aloe-${id}` : "");
 }
 
 export { useId };

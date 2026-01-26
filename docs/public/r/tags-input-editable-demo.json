@@ -1,7 +1,7 @@
 {
   "name": "tags-input-editable-demo",
   "dependencies": [
-    "@diceui/tags-input",
+    "@aloeui/tags-input",
     "lucide-react"
   ],
   "registryDependencies": [

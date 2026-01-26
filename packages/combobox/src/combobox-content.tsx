@@ -10,7 +10,7 @@ import {
   useComposedRefs,
   useDismiss,
   useScrollLock,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import { FloatingFocusManager } from "@floating-ui/react";
 import * as React from "react";
 import { getDataState, useComboboxContext } from "./combobox-root";

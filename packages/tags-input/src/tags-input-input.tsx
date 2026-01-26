@@ -1,4 +1,4 @@
-import { composeEventHandlers, composeRefs, Primitive } from "@diceui/shared";
+import { composeEventHandlers, composeRefs, Primitive } from "@aloeui/shared";
 import * as React from "react";
 import { useTagsInput } from "./tags-input-root";
 

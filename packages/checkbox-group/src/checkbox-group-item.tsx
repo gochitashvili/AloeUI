@@ -6,7 +6,7 @@ import {
   useFormControl,
   useId,
   VisuallyHiddenInput,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { useCheckboxGroup } from "./checkbox-group-root";
 

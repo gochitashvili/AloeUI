@@ -6,7 +6,7 @@ import {
   useControllableState,
   useDirection,
   useId,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 
 const ROOT_NAME = "CheckboxGroupRoot";

@@ -1,4 +1,4 @@
-import * as CheckboxGroupPrimitive from "@diceui/checkbox-group";
+import * as CheckboxGroupPrimitive from "@aloeui/checkbox-group";
 import { Check } from "lucide-react";
 import type * as React from "react";
 import { cn } from "@/lib/utils";

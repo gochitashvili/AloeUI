@@ -1,4 +1,4 @@
-import * as CheckboxGroup from "@diceui/checkbox-group";
+import * as CheckboxGroup from "@aloeui/checkbox-group";
 import { Check } from "lucide-react";
 
 export default function CheckboxGroupDemo() {

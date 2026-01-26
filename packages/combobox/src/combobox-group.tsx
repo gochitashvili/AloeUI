@@ -1,4 +1,4 @@
-import { createContext, Primitive, useId } from "@diceui/shared";
+import { createContext, Primitive, useId } from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxContext } from "./combobox-root";
 

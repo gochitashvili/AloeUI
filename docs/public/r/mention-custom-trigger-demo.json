@@ -1,7 +1,7 @@
 {
   "name": "mention-custom-trigger-demo",
   "dependencies": [
-    "@diceui/mention",
+    "@aloeui/mention",
     "lucide-react"
   ],
   "files": [

@@ -5,11 +5,11 @@ Checkbox Group is a component that allows users to select multiple options from 
 ## Installation
 
 ```bash
-npm install @diceui/checkbox-group
+npm install @aloeui/checkbox-group
 # or
-pnpm add @diceui/checkbox-group
+pnpm add @aloeui/checkbox-group
 # or
-yarn add @diceui/checkbox-group
+yarn add @aloeui/checkbox-group
 # or
-bun add @diceui/checkbox-group
+bun add @aloeui/checkbox-group
 ```

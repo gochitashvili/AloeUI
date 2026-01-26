@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Dice UI",
-    short_name: "Dice UI",
+    name: "AloeUI",
+    short_name: "AloeUI",
     description: "Unstyled ui component library.",
     start_url: "/",
     display: "standalone",

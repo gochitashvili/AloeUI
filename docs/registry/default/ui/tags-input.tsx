@@ -1,4 +1,4 @@
-import * as TagsInputPrimitive from "@diceui/tags-input";
+import * as TagsInputPrimitive from "@aloeui/tags-input";
 import { X } from "lucide-react";
 import type * as React from "react";
 import { cn } from "@/lib/utils";

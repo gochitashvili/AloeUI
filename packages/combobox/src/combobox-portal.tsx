@@ -1,4 +1,4 @@
-import { Portal as PortalPrimitive, type PortalProps } from "@diceui/shared";
+import { Portal as PortalPrimitive, type PortalProps } from "@aloeui/shared";
 import * as React from "react";
 
 const PORTAL_NAME = "ComboboxPortal";

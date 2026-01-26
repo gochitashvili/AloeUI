@@ -12,17 +12,17 @@ interface ServerInfo {
   local: boolean;
 }
 
-const PROD_URL = "https://diceui.com";
+const PROD_URL = "https://aloeui.com";
 const LOCAL_URLS = ["http://localhost:3000", "http://localhost:3001"];
 const VERBOSE = process.env.VERBOSE === "true";
 
 // Extract hook names
 const HOOKS = hooks.map((h) => h.name);
 
-// Extract components that have @diceui dependencies
+// Extract components that have @aloeui dependencies
 const COMPONENTS = ui
   .filter((item) =>
-    item.registryDependencies?.some((dep) => dep.startsWith("@diceui/")),
+    item.registryDependencies?.some((dep) => dep.startsWith("@aloeui/")),
   )
   .map((item) => item.name);
 
@@ -63,7 +63,7 @@ async function testItem(name: string, url: string): Promise<TestResult> {
       const data = await response.json();
       const depCount = (
         data.registryDependencies?.filter((d: string) =>
-          d.startsWith("@diceui/"),
+          d.startsWith("@aloeui/"),
         ) ?? []
       ).length;
       return { success: true, deps: depCount };
@@ -81,7 +81,7 @@ async function testItem(name: string, url: string): Promise<TestResult> {
 async function main(): Promise<void> {
   const startTime = Date.now();
 
-  console.log("🧪 DiceUI Registry Test");
+  console.log("🧪 AloeUI Registry Test");
   console.log("=======================\n");
 
   // Detect server

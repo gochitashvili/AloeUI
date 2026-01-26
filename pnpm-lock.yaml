@@ -53,19 +53,19 @@ importers:
 
   docs:
     dependencies:
-      '@diceui/checkbox-group':
+      '@aloeui/checkbox-group':
         specifier: workspace:*
         version: link:../packages/checkbox-group
-      '@diceui/combobox':
+      '@aloeui/combobox':
         specifier: workspace:*
         version: link:../packages/combobox
-      '@diceui/listbox':
+      '@aloeui/listbox':
         specifier: workspace:*
         version: link:../packages/listbox
-      '@diceui/mention':
+      '@aloeui/mention':
         specifier: workspace:*
         version: link:../packages/mention
-      '@diceui/tags-input':
+      '@aloeui/tags-input':
         specifier: workspace:*
         version: link:../packages/tags-input
       '@dnd-kit/core':
@@ -315,7 +315,7 @@ importers:
 
   packages/checkbox-group:
     dependencies:
-      '@diceui/shared':
+      '@aloeui/shared':
         specifier: workspace:*
         version: link:../shared
       '@types/react':
@@ -340,7 +340,7 @@ importers:
 
   packages/combobox:
     dependencies:
-      '@diceui/shared':
+      '@aloeui/shared':
         specifier: workspace:*
         version: link:../shared
       '@floating-ui/react':
@@ -390,7 +390,7 @@ importers:
 
   packages/mention:
     dependencies:
-      '@diceui/shared':
+      '@aloeui/shared':
         specifier: workspace:*
         version: link:../shared
       '@floating-ui/react':
@@ -443,7 +443,7 @@ importers:
 
   packages/tags-input:
     dependencies:
-      '@diceui/shared':
+      '@aloeui/shared':
         specifier: workspace:*
         version: link:../shared
       '@types/react':

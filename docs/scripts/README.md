@@ -35,7 +35,7 @@ VERBOSE=true pnpm test:registry  # Show loaded items + dependency counts
 
 Automatically tests:
 - All hooks from `registry-hooks.ts`
-- All components with `@diceui/*` dependencies from `registry-ui.ts`
+- All components with `@aloeui/*` dependencies from `registry-ui.ts`
 
 ## Workflow
 

@@ -1,4 +1,4 @@
-import * as MentionPrimitive from "@diceui/mention";
+import * as MentionPrimitive from "@aloeui/mention";
 import type * as React from "react";
 
 import { cn } from "@/lib/utils";

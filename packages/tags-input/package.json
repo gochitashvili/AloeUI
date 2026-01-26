@@ -1,5 +1,5 @@
 {
-  "name": "@diceui/tags-input",
+  "name": "@aloeui/tags-input",
   "version": "0.7.2",
   "type": "module",
   "publishConfig": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sadmann7/diceui",
+    "url": "https://github.com/gochitashvili/AloeUI",
     "directory": "packages/tags-input"
   },
   "main": "./dist/index.cjs",
@@ -58,6 +58,6 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@diceui/shared": "workspace:*"
+    "@aloeui/shared": "workspace:*"
   }
 }

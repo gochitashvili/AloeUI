@@ -1,11 +1,11 @@
 {
   "name": "masonry",
   "dependencies": [
-    "@diceui/masonry",
+    "@aloeui/masonry",
     "@radix-ui/react-slot"
   ],
   "registryDependencies": [
-    "@diceui/use-isomorphic-layout-effect"
+    "@aloeui/use-isomorphic-layout-effect"
   ],
   "files": [
     {

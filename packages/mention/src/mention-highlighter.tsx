@@ -1,4 +1,4 @@
-import { useCallbackRef, useComposedRefs } from "@diceui/shared";
+import { useCallbackRef, useComposedRefs } from "@aloeui/shared";
 import * as React from "react";
 import { useMentionContext } from "./mention-root";
 

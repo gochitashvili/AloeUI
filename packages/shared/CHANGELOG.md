@@ -1,4 +1,4 @@
-# @diceui/shared
+# @aloeui/shared
 
 ## 0.12.0
 

@@ -8,8 +8,8 @@ import { lib } from "@/registry/registry-lib";
 import { ui } from "@/registry/registry-ui";
 
 export const registry = {
-  name: "diceui/ui",
-  homepage: "https://diceui.com",
+  name: "aloeui/ui",
+  homepage: "https://aloeui.com",
   items: [
     {
       name: "index",

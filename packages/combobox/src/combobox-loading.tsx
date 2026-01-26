@@ -1,4 +1,4 @@
-import { Primitive, useProgress } from "@diceui/shared";
+import { Primitive, useProgress } from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxContext } from "./combobox-root";
 

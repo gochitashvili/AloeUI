@@ -1,4 +1,4 @@
-import * as ListboxPrimitive from "@diceui/listbox";
+import * as ListboxPrimitive from "@aloeui/listbox";
 import { Check } from "lucide-react";
 import type * as React from "react";
 import { cn } from "@/lib/utils";

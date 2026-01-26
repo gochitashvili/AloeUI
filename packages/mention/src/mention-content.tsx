@@ -11,7 +11,7 @@ import {
   useDismiss,
   useScrollLock,
   visuallyHidden,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import { FloatingFocusManager } from "@floating-ui/react";
 import * as React from "react";
 import { getDataState, useMentionContext } from "./mention-root";

@@ -19,7 +19,7 @@ import type {
   ComboboxRootProps,
   ComboboxSeparatorProps,
   ComboboxTriggerProps,
-} from "@diceui/combobox";
+} from "@aloeui/combobox";
 import type * as React from "react";
 import type { ControlledProps } from "@/types";
 

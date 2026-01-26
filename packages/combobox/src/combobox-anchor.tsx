@@ -2,7 +2,7 @@ import {
   composeEventHandlers,
   Primitive,
   useComposedRefs,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxContext } from "./combobox-root";
 

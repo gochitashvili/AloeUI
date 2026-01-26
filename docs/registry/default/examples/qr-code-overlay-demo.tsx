@@ -13,7 +13,7 @@ export default function QRCodeOverlayDemo() {
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
       <div className="flex flex-col items-center gap-2">
         <QRCode
-          value="https://diceui.com"
+          value="https://aloeui.com"
           size={120}
           level="H"
           className="gap-4"
@@ -31,7 +31,7 @@ export default function QRCodeOverlayDemo() {
 
       <div className="flex flex-col items-center gap-2">
         <QRCode
-          value="https://diceui.com"
+          value="https://aloeui.com"
           size={120}
           level="H"
           className="gap-4"
@@ -49,7 +49,7 @@ export default function QRCodeOverlayDemo() {
 
       <div className="flex flex-col items-center gap-2">
         <QRCode
-          value="https://diceui.com"
+          value="https://aloeui.com"
           size={120}
           level="H"
           className="gap-4"

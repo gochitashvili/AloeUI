@@ -1,7 +1,7 @@
 {
   "name": "checkbox-group-horizontal-demo",
   "dependencies": [
-    "@diceui/checkbox-group",
+    "@aloeui/checkbox-group",
     "lucide-react"
   ],
   "registryDependencies": [

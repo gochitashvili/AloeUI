@@ -7,7 +7,7 @@ import {
   QRCodeSvg,
 } from "@/registry/default/ui/qr-code";
 
-const value = "https://diceui.com";
+const value = "https://aloeui.com";
 
 export default function QRCodeFormatsDemo() {
   return (

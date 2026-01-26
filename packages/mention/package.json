@@ -1,5 +1,5 @@
 {
-  "name": "@diceui/mention",
+  "name": "@aloeui/mention",
   "version": "0.8.0",
   "type": "module",
   "publishConfig": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sadmann7/diceui",
+    "url": "https://github.com/gochitashvili/AloeUI",
     "directory": "packages/mention"
   },
   "main": "./dist/index.cjs",
@@ -58,7 +58,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@diceui/shared": "workspace:*",
+    "@aloeui/shared": "workspace:*",
     "@floating-ui/react": "^0.27.4"
   }
 }

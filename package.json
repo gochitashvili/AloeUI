@@ -1,5 +1,5 @@
 {
-  "name": "diceui",
+  "name": "aloeui",
   "packageManager": "pnpm@10.22.0",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
     "validate:registry": "pnpm --filter=docs validate:registry --loglevel silent",
     "cleanup:registry": "pnpm --filter=docs cleanup:registry --loglevel silent",
     "test:registry": "pnpm --filter=docs test:registry --loglevel silent",
-    "build:packages": "pnpm --filter \"@diceui/*\" build",
+    "build:packages": "pnpm --filter \"@aloeui/*\" build",
     "dev": "turbo run dev",
     "docs:dev": "turbo run dev --filter=docs",
     "lint": "biome check .",

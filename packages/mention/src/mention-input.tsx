@@ -2,7 +2,7 @@ import {
   composeEventHandlers,
   Primitive,
   useComposedRefs,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { MentionHighlighter } from "./mention-highlighter";
 import { type Mention, useMentionContext } from "./mention-root";

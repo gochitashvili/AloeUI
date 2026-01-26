@@ -5,11 +5,11 @@ Combobox is a component that allows users to select an option from a list of opt
 ## Installation
 
 ```bash
-npm install @diceui/combobox
+npm install @aloeui/combobox
 # or
-pnpm add @diceui/combobox
+pnpm add @aloeui/combobox
 # or
-yarn add @diceui/combobox
+yarn add @aloeui/combobox
 # or
-bun add @diceui/combobox
+bun add @aloeui/combobox
 ```

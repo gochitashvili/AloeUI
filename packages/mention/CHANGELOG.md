@@ -1,4 +1,4 @@
-# @diceui/mention
+# @aloeui/mention
 
 ## 0.8.0
 
@@ -29,7 +29,7 @@
 ### Patch Changes
 
 - Updated dependencies [a13ae2e]
-  - @diceui/shared@0.12.0
+  - @aloeui/shared@0.12.0
 
 ## 0.7.0
 
@@ -40,7 +40,7 @@
 ### Patch Changes
 
 - Updated dependencies [d38e0e1]
-  - @diceui/shared@0.11.0
+  - @aloeui/shared@0.11.0
 
 ## 0.6.0
 
@@ -51,14 +51,14 @@
 ### Patch Changes
 
 - Updated dependencies [90d0462]
-  - @diceui/shared@0.10.0
+  - @aloeui/shared@0.10.0
 
 ## 0.5.0
 
 ### Patch Changes
 
 - Updated dependencies [91c8b92]
-  - @diceui/shared@0.9.0
+  - @aloeui/shared@0.9.0
 
 ## 0.4.0
 
@@ -69,7 +69,7 @@
 ### Patch Changes
 
 - Updated dependencies [732b7ce]
-  - @diceui/shared@0.8.0
+  - @aloeui/shared@0.8.0
 
 ## 0.3.0
 
@@ -92,18 +92,18 @@
 ### Patch Changes
 
 - Updated dependencies [ba62131]
-  - @diceui/shared@0.7.0
+  - @aloeui/shared@0.7.0
 
 ## 0.0.3
 
 ### Patch Changes
 
 - Updated dependencies [2bbc35f]
-  - @diceui/shared@0.6.0
+  - @aloeui/shared@0.6.0
 
 ## 0.0.2
 
 ### Patch Changes
 
 - Updated dependencies [6074f6a]
-  - @diceui/shared@0.5.0
+  - @aloeui/shared@0.5.0

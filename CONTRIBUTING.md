@@ -1,17 +1,17 @@
-# Contributing to Dice UI
+# Contributing to AloeUI
 
-Thank you for your interest in contributing to Dice UI! This guide will help you get started with contributing to both our components and documentation.
+Thank you for your interest in contributing to AloeUI! This guide will help you get started with contributing to both our components and documentation.
 
 ## Project Structure
 
-Dice UI is organized into multiple packages and documentation:
+AloeUI is organized into multiple packages and documentation:
 
 - `/packages/*` - Component packages
-  - `@diceui/combobox` - Combobox component
-  - `@diceui/mention` - Mention component
-  - `@diceui/tags-input` - Tags Input component
-  - `@diceui/checkbox-group` - Checkbox Group component
-  - `@diceui/shared` - Shared utilities and types
+  - `@aloeui/combobox` - Combobox component
+  - `@aloeui/mention` - Mention component
+  - `@aloeui/tags-input` - Tags Input component
+  - `@aloeui/checkbox-group` - Checkbox Group component
+  - `@aloeui/shared` - Shared utilities and types
 - `/docs/*` - Documentation website
   - `/app/*` - Next.js App Router pages
   - `/content/docs/*` - MDX documentation files
@@ -26,13 +26,13 @@ Dice UI is organized into multiple packages and documentation:
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/sadmann7/diceui.git
+   git clone https://github.com/gochitashvili/AloeUI.git
    ```
 
 3. Navigate to the project directory:
 
    ```bash
-   cd diceui
+   cd AloeUI
    ```
 
 4. Install dependencies:

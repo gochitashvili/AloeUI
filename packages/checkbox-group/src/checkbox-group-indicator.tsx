@@ -1,4 +1,4 @@
-import { Presence, Primitive } from "@diceui/shared";
+import { Presence, Primitive } from "@aloeui/shared";
 import * as React from "react";
 import { getDataState, useCheckboxGroupItem } from "./checkbox-group-item";
 

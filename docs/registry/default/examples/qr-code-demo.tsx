@@ -6,7 +6,7 @@ import {
 
 export default function QRCodeDemo() {
   return (
-    <QRCode value="https://diceui.com" size={200}>
+    <QRCode value="https://aloeui.com" size={200}>
       <QRCodeSkeleton />
       <QRCodeCanvas />
     </QRCode>

@@ -1,4 +1,4 @@
-import { Primitive } from "@diceui/shared";
+import { Primitive } from "@aloeui/shared";
 import * as React from "react";
 import { useMentionContext } from "./mention-root";
 

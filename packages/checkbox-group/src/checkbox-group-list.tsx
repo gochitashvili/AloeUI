@@ -1,4 +1,4 @@
-import { Primitive, useId } from "@diceui/shared";
+import { Primitive, useId } from "@aloeui/shared";
 import * as React from "react";
 import { useCheckboxGroup } from "./checkbox-group-root";
 

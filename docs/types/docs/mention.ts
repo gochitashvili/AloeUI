@@ -5,7 +5,7 @@ import type {
   MentionLabelProps,
   MentionPortalProps,
   MentionRootProps,
-} from "@diceui/mention";
+} from "@aloeui/mention";
 import type * as React from "react";
 import type { ControlledProps } from "@/types";
 

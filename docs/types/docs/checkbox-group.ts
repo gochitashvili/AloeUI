@@ -6,7 +6,7 @@ import type {
   CheckboxGroupListProps,
   CheckboxGroupMessageProps,
   CheckboxGroupRootProps,
-} from "@diceui/checkbox-group";
+} from "@aloeui/checkbox-group";
 import type * as React from "react";
 import type { ControlledProps } from "@/types";
 

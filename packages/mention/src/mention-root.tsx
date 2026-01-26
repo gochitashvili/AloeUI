@@ -13,7 +13,7 @@ import {
   useId,
   useListHighlighting,
   VisuallyHiddenInput,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import type { VirtualElement } from "@floating-ui/react";
 import * as React from "react";
 import type { ContentElement } from "./mention-content";

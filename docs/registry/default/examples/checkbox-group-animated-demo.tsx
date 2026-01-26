@@ -1,4 +1,4 @@
-import * as CheckboxGroup from "@diceui/checkbox-group";
+import * as CheckboxGroup from "@aloeui/checkbox-group";
 
 export default function CheckboxGroupDemo() {
   return (

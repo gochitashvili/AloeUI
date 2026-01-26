@@ -1,5 +1,5 @@
 {
-  "name": "@diceui/shared",
+  "name": "@aloeui/shared",
   "version": "0.12.0",
   "publishConfig": {
     "access": "public"

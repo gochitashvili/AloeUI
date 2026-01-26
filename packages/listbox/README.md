@@ -5,11 +5,11 @@ Listbox is a component that allows users to select an option from a list of opti
 ## Installation
 
 ```bash
-npm install @diceui/listbox
+npm install @aloeui/listbox
 # or
-pnpm add @diceui/listbox
+pnpm add @aloeui/listbox
 # or
-yarn add @diceui/listbox
+yarn add @aloeui/listbox
 # or
-bun add @diceui/listbox
+bun add @aloeui/listbox
 ```

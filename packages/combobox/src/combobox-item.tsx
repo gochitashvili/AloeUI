@@ -8,7 +8,7 @@ import {
   useId,
   useIsomorphicLayoutEffect,
   useLabel,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxGroupContext } from "./combobox-group";
 import type { ItemTextElement } from "./combobox-item-text";

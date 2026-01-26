@@ -1,7 +1,7 @@
 {
   "name": "use-as-ref",
   "registryDependencies": [
-    "@diceui/use-isomorphic-layout-effect"
+    "@aloeui/use-isomorphic-layout-effect"
   ],
   "files": [
     {

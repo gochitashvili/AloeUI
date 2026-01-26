@@ -4,7 +4,7 @@ import {
   DATA_ITEM_ATTR,
   Primitive,
   useId,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { type InputValue, useTagsInput } from "./tags-input-root";
 

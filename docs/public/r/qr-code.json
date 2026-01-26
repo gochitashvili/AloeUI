@@ -8,7 +8,7 @@
     "@types/qrcode"
   ],
   "registryDependencies": [
-    "@diceui/use-lazy-ref"
+    "@aloeui/use-lazy-ref"
   ],
   "files": [
     {

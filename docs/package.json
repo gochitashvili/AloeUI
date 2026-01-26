@@ -18,11 +18,11 @@
     "shadcn": "pnpm dlx shadcn@latest"
   },
   "dependencies": {
-    "@diceui/checkbox-group": "workspace:*",
-    "@diceui/combobox": "workspace:*",
-    "@diceui/listbox": "workspace:*",
-    "@diceui/mention": "workspace:*",
-    "@diceui/tags-input": "workspace:*",
+    "@aloeui/checkbox-group": "workspace:*",
+    "@aloeui/combobox": "workspace:*",
+    "@aloeui/listbox": "workspace:*",
+    "@aloeui/mention": "workspace:*",
+    "@aloeui/tags-input": "workspace:*",
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/modifiers": "^9.0.0",
     "@dnd-kit/sortable": "^10.0.0",

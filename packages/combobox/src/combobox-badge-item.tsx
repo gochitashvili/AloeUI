@@ -3,7 +3,7 @@ import {
   createContext,
   Primitive,
   useId,
-} from "@diceui/shared";
+} from "@aloeui/shared";
 import * as React from "react";
 import { useComboboxBadgeListContext } from "./combobox-badge-list";
 import { useComboboxContext } from "./combobox-root";

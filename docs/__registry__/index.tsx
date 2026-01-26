@@ -27,7 +27,7 @@ export const Index: Record<string, any> = {
       name: "action-bar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect"],
+      registryDependencies: ["button","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect"],
       files: [{
         path: "registry/default/ui/action-bar.tsx",
         type: "registry:ui",
@@ -45,7 +45,7 @@ export const Index: Record<string, any> = {
       name: "angle-slider",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/angle-slider.tsx",
         type: "registry:ui",
@@ -127,7 +127,7 @@ export const Index: Record<string, any> = {
       name: "color-picker",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","input","popover","select","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["button","input","popover","select","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/color-picker.tsx",
         type: "registry:ui",
@@ -163,7 +163,7 @@ export const Index: Record<string, any> = {
       name: "compare-slider",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/compare-slider.tsx",
         type: "registry:ui",
@@ -181,7 +181,7 @@ export const Index: Record<string, any> = {
       name: "cropper",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/cropper.tsx",
         type: "registry:ui",
@@ -213,7 +213,7 @@ export const Index: Record<string, any> = {
       name: "editable",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/editable.tsx",
         type: "registry:ui",
@@ -235,7 +235,7 @@ export const Index: Record<string, any> = {
       name: "file-upload",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/file-upload.tsx",
         type: "registry:ui",
@@ -299,7 +299,7 @@ export const Index: Record<string, any> = {
       name: "key-value",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","input","textarea","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["button","input","textarea","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/key-value.tsx",
         type: "registry:ui",
@@ -371,7 +371,7 @@ export const Index: Record<string, any> = {
       name: "masonry",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-isomorphic-layout-effect"],
+      registryDependencies: ["@aloeui/use-isomorphic-layout-effect"],
       files: [{
         path: "registry/default/ui/masonry.tsx",
         type: "registry:ui",
@@ -389,7 +389,7 @@ export const Index: Record<string, any> = {
       name: "media-player",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["badge","button","select","slider","tooltip","dropdown-menu","@diceui/use-lazy-ref"],
+      registryDependencies: ["badge","button","select","slider","tooltip","dropdown-menu","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/media-player.tsx",
         type: "registry:ui",
@@ -453,7 +453,7 @@ export const Index: Record<string, any> = {
       name: "scroll-spy",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/scroll-spy.tsx",
         type: "registry:ui",
@@ -485,7 +485,7 @@ export const Index: Record<string, any> = {
       name: "selection-toolbar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["button","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/selection-toolbar.tsx",
         type: "registry:ui",
@@ -521,7 +521,7 @@ export const Index: Record<string, any> = {
       name: "speed-dial",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["button","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/speed-dial.tsx",
         type: "registry:ui",
@@ -581,7 +581,7 @@ export const Index: Record<string, any> = {
       name: "stepper",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["button","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/stepper.tsx",
         type: "registry:ui",
@@ -599,7 +599,7 @@ export const Index: Record<string, any> = {
       name: "swap",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/swap.tsx",
         type: "registry:ui",
@@ -613,7 +613,7 @@ export const Index: Record<string, any> = {
       name: "qr-code",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/qr-code.tsx",
         type: "registry:ui",
@@ -627,7 +627,7 @@ export const Index: Record<string, any> = {
       name: "rating",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/rating.tsx",
         type: "registry:ui",
@@ -663,7 +663,7 @@ export const Index: Record<string, any> = {
       name: "timeline",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/timeline.tsx",
         type: "registry:ui",
@@ -681,7 +681,7 @@ export const Index: Record<string, any> = {
       name: "time-picker",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["popover","@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["popover","@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/time-picker.tsx",
         type: "registry:ui",
@@ -703,7 +703,7 @@ export const Index: Record<string, any> = {
       name: "tour",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["@diceui/use-as-ref","@diceui/use-isomorphic-layout-effect","@diceui/use-lazy-ref"],
+      registryDependencies: ["@aloeui/use-as-ref","@aloeui/use-isomorphic-layout-effect","@aloeui/use-lazy-ref"],
       files: [{
         path: "registry/default/ui/tour.tsx",
         type: "registry:ui",
@@ -749,7 +749,7 @@ export const Index: Record<string, any> = {
       name: "use-as-ref",
       description: "",
       type: "registry:hook",
-      registryDependencies: ["@diceui/use-isomorphic-layout-effect"],
+      registryDependencies: ["@aloeui/use-isomorphic-layout-effect"],
       files: [{
         path: "registry/default/hooks/use-as-ref.ts",
         type: "registry:hook",

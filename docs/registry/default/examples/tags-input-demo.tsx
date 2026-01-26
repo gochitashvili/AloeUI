@@ -1,6 +1,6 @@
 "use client";
 
-import * as TagsInput from "@diceui/tags-input";
+import * as TagsInput from "@aloeui/tags-input";
 import { RefreshCcw, X } from "lucide-react";
 import * as React from "react";
 

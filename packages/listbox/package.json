@@ -1,5 +1,5 @@
 {
-  "name": "@diceui/listbox",
+  "name": "@aloeui/listbox",
   "version": "0.2.0",
   "type": "module",
   "publishConfig": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sadmann7/diceui",
+    "url": "https://github.com/gochitashvili/AloeUI",
     "directory": "packages/listbox"
   },
   "main": "./dist/index.cjs",

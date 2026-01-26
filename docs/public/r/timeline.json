@@ -5,8 +5,8 @@
     "@radix-ui/react-direction"
   ],
   "registryDependencies": [
-    "@diceui/use-isomorphic-layout-effect",
-    "@diceui/use-lazy-ref"
+    "@aloeui/use-isomorphic-layout-effect",
+    "@aloeui/use-lazy-ref"
   ],
   "files": [
     {

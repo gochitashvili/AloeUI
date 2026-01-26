@@ -1,10 +1,10 @@
-# Tablcn to DiceUI Migration
+# Tablcn to AloeUI Migration
 
-This rule guides the migration of data-grid and data-table changes from the tablcn upstream repository to the diceui docs.
+This rule guides the migration of data-grid and data-table changes from the tablcn upstream repository to the aloeui docs.
 
 ## When to Use
 
-Use this rule when PRs are merged into the tablcn repository and need to be synced to diceui. Common scenarios:
+Use this rule when PRs are merged into the tablcn repository and need to be synced to aloeui. Common scenarios:
 - New features added to data-grid or data-table
 - Bug fixes in components
 - New keyboard shortcuts or props added
@@ -175,7 +175,7 @@ docs/components/data-table/data-table-toolbar.tsx
 ### Data Table
 - feat(data-table): add new filter variant (#XXX)
 
-## DiceUI Updates
+## AloeUI Updates
 
 ### Import Path Fixes
 - Fixed imports in data-grid components and hooks
