@@ -277,6 +277,20 @@ export const Index: Record<string, any> = {
       source: "",
       chunks: []
     },
+    "heading": {
+      name: "heading",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/heading.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/heading.tsx")),
+      source: "",
+      chunks: []
+    },
     "kanban": {
       name: "kanban",
       description: "",
@@ -1694,6 +1708,20 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/examples/gauge-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-demo": {
+      name: "heading-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-demo.tsx")),
       source: "",
       chunks: []
     },

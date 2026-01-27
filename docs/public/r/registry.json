@@ -324,6 +324,20 @@
       "type": "registry:ui"
     },
     {
+      "name": "heading",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "path": "ui/heading.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
       "name": "kanban",
       "dependencies": [
         "@dnd-kit/core",
@@ -1981,6 +1995,19 @@
       "files": [
         {
           "path": "examples/gauge-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-demo.tsx",
           "type": "registry:example"
         }
       ],

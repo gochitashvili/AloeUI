@@ -300,6 +300,20 @@
     "type": "registry:ui"
   },
   {
+    "name": "heading",
+    "dependencies": [
+      "@radix-ui/react-slot",
+      "class-variance-authority"
+    ],
+    "files": [
+      {
+        "path": "ui/heading.tsx",
+        "type": "registry:ui"
+      }
+    ],
+    "type": "registry:ui"
+  },
+  {
     "name": "kanban",
     "dependencies": [
       "@dnd-kit/core",

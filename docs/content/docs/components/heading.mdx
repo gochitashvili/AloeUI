@@ -1,0 +1,70 @@
+---
+title: Heading
+description: A typographic heading component with responsive variants for h1–h6.
+preview: true
+links:
+  api: /docs/components/heading#api-reference
+---
+
+<ComponentTabs name="heading-demo" />
+
+## Installation
+
+### CLI
+
+```package-install
+npx shadcn@latest add @aloeui/heading
+```
+
+### Manual
+
+<Steps>
+  <Step>
+    Install the following dependencies:
+
+    ```package-install
+    @radix-ui/react-slot class-variance-authority
+    ```
+  </Step>
+  <Step>
+    Copy and paste the following code into your project.
+
+    <ComponentSource name="heading" />
+  </Step>
+</Steps>
+
+## Layout
+
+Import the `Heading` component and choose the appropriate variant.
+
+```tsx
+import { Heading } from "@/components/ui/heading";
+
+export function Example() {
+  return (
+    <div className="space-y-4">
+      <Heading variant="h1">Heading 1</Heading>
+      <Heading variant="h2">Heading 2</Heading>
+      <Heading variant="h3">Heading 3</Heading>
+      <Heading variant="h4">Heading 4</Heading>
+      <Heading variant="h5">Heading 5</Heading>
+      <Heading variant="h6">Heading 6</Heading>
+    </div>
+  );
+}
+```
+
+You can also change the rendered HTML element using the `as` prop:
+
+```tsx
+<Heading as="h3" variant="h1">
+  Visually h1, semantically h3
+</Heading>
+```
+
+## API Reference
+
+### Heading
+
+<AutoTypeTable path="types/docs/heading.ts" name="HeadingProps" />
+

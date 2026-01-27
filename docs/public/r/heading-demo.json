@@ -1,0 +1,15 @@
+{
+  "name": "heading-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingDemo(): React.ReactElement {\n  return (\n    <div className=\"space-y-4\">\n      <Heading variant=\"h1\">Heading 1</Heading>\n      <Heading variant=\"h2\">Heading 2</Heading>\n      <Heading variant=\"h3\">Heading 3</Heading>\n      <Heading variant=\"h4\">Heading 4</Heading>\n      <Heading variant=\"h5\">Heading 5</Heading>\n      <Heading variant=\"h6\">Heading 6</Heading>\n    </div>\n  );\n}\n\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}
