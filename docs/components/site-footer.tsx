@@ -12,7 +12,7 @@ export function SiteFooter() {
             target="_blank"
             className="font-medium underline underline-offset-4 transition-colors hover:text-foreground/80"
           >
-            sadman
+            Gocha
           </a>
           .
         </p>
