@@ -1,6 +1,6 @@
 # [AloeUI](https://aloeui.com/docs)
 
-Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable.
+Copy-paste ready Shadcn/ui components.
 
 ## Documentation
 
