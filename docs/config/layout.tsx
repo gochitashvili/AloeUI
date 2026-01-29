@@ -7,12 +7,9 @@ import { source } from "@/lib/source";
 export const baseOptions: BaseLayoutProps = {
   nav: {
     title: (
-      <>
-        <Icons.logo className="size-4" />
-        <span className="in-[.uwu]:hidden font-medium in-[header]:text-[15px]">
-          {siteConfig.name}
-        </span>
-      </>
+      <span className="in-[.uwu]:hidden font-medium in-[header]:text-[15px]">
+        {siteConfig.name}
+      </span>
     ),
   },
   links: [

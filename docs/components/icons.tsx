@@ -1,9 +1,8 @@
-import { Dice4, Loader } from "lucide-react";
+import { Loader } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
-  logo: Dice4,
   gitHub: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
