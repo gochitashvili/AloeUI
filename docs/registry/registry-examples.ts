@@ -12,4 +12,15 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "message-demo",
+    type: "registry:example",
+    registryDependencies: ["message"],
+    files: [
+      {
+        path: "examples/message-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ];

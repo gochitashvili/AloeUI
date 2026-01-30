@@ -1,0 +1,15 @@
+{
+  "name": "message-demo",
+  "registryDependencies": [
+    "message"
+  ],
+  "files": [
+    {
+      "path": "examples/message-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Message } from \"@/registry/default/ui/message\";\n\nexport default function MessageDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-4\">\n      <Message>\n        This is a message. Functionality and variants can be added later.\n      </Message>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

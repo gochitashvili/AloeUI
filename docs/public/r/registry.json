@@ -38,6 +38,19 @@
       "type": "registry:ui"
     },
     {
+      "name": "message",
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ],
+      "files": [
+        {
+          "path": "ui/message.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
       "name": "utils",
       "dependencies": [
         "clsx",
@@ -112,6 +125,19 @@
       "files": [
         {
           "path": "examples/heading-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "message-demo",
+      "registryDependencies": [
+        "message"
+      ],
+      "files": [
+        {
+          "path": "examples/message-demo.tsx",
           "type": "registry:example"
         }
       ],

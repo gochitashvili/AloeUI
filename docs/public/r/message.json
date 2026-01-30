@@ -1,0 +1,15 @@
+{
+  "name": "message",
+  "dependencies": [
+    "@radix-ui/react-slot"
+  ],
+  "files": [
+    {
+      "path": "ui/message.tsx",
+      "content": "import { Slot } from \"@radix-ui/react-slot\";\nimport * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\n\nexport interface MessageProps extends React.HTMLAttributes<HTMLDivElement> {\n  asChild?: boolean;\n}\n\nconst Message = React.forwardRef<HTMLDivElement, MessageProps>(\n  ({ className, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"div\";\n\n    return (\n      <Comp\n        className={cn(\n          \"rounded-md border bg-card p-4 text-card-foreground\",\n          className,\n        )}\n        ref={ref}\n        {...props}\n      />\n    );\n  },\n);\n\nMessage.displayName = \"Message\";\n\nexport { Message };\n",
+      "type": "registry:ui",
+      "target": ""
+    }
+  ],
+  "type": "registry:ui"
+}

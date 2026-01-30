@@ -37,6 +37,20 @@ export const Index: Record<string, any> = {
       source: "",
       chunks: []
     },
+    "message": {
+      name: "message",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/message.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/message.tsx")),
+      source: "",
+      chunks: []
+    },
     "utils": {
       name: "utils",
       description: "",
@@ -132,6 +146,20 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/examples/heading-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "message-demo": {
+      name: "message-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["message"],
+      files: [{
+        path: "registry/default/examples/message-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/message-demo.tsx")),
       source: "",
       chunks: []
     },

@@ -1,0 +1,66 @@
+---
+title: Message
+description: A message container component. Purpose and variants can be extended later.
+preview: true
+links:
+  api: /docs/components/message#api-reference
+---
+
+<ComponentTabs name="message-demo" />
+
+## Installation
+
+### CLI
+
+```package-install
+npx shadcn@latest add @aloeui/message
+```
+
+### Manual
+
+<Steps>
+  <Step>
+    Install the following dependencies:
+
+    ```package-install
+    @radix-ui/react-slot class-variance-authority
+    ```
+  </Step>
+  <Step>
+    Copy and paste the following code into your project.
+
+    <ComponentSource name="message" />
+  </Step>
+</Steps>
+
+## Layout
+
+Message has **variant** (user / ai), **size** (default / sm / lg), and **state** (default / loading / error). Class names are left empty so you can style via your own CSS. The root element gets `data-variant`, `data-size`, and `data-state` for attribute selectors.
+
+```tsx
+import { Message } from "@/components/ui/message";
+
+export function Example() {
+  return (
+    <div className="flex flex-col gap-2">
+      <Message variant="user">User message</Message>
+      <Message variant="ai" state="loading">AI thinking…</Message>
+      <Message variant="ai" size="sm" state="error">Error</Message>
+    </div>
+  );
+}
+```
+
+With `asChild`, the Message merges its props and styles onto the child element:
+
+```tsx
+<Message asChild>
+  <article>Rendered as article with message styles</article>
+</Message>
+```
+
+## API Reference
+
+### Message
+
+<AutoTypeTable path="types/docs/message.ts" name="MessageProps" />
