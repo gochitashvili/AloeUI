@@ -4,11 +4,7 @@ import type { CompositionProps, EmptyProps } from "@/types";
  * Props for the `Heading` component.
  *
  * Renders typographic headings (h1–h6) with responsive sizes,
- * weight, tracking, leading, and optional polymorphic rendering.
- *
- * When using `as`, the `ref` type is inferred from the element:
- * - `as="h1"` → `React.Ref<HTMLHeadingElement>`
- * - `as="div"` → `React.Ref<HTMLDivElement>`
+ * weight, tracking, leading, and asChild for composition.
  */
 export interface HeadingProps extends EmptyProps<"h1">, CompositionProps {
   /**
@@ -66,12 +62,4 @@ export interface HeadingProps extends EmptyProps<"h1">, CompositionProps {
    * @default false
    */
   asChild?: boolean;
-
-  /**
-   * The HTML element to render.
-   * When omitted, the value of `size` is used.
-   *
-   * @default "h1"
-   */
-  as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div";
 }

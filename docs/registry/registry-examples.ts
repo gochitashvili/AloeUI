@@ -68,12 +68,12 @@ export const examples: Registry["items"] = [
     ],
   },
   {
-    name: "heading-as-demo",
+    name: "heading-asChild-demo",
     type: "registry:example",
     registryDependencies: ["heading"],
     files: [
       {
-        path: "examples/heading-as-demo.tsx",
+        path: "examples/heading-asChild-demo.tsx",
         type: "registry:example",
       },
     ],

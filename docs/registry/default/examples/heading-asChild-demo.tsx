@@ -2,15 +2,14 @@ import type * as React from "react";
 
 import { Heading } from "@/registry/default/ui/heading";
 
-export default function HeadingAsDemo(): React.ReactElement {
+export default function HeadingAsChildDemo(): React.ReactElement {
   return (
     <div className="flex flex-col gap-2">
-      <Heading as="h3" size="h1">
-        Heading
+      <Heading asChild size="h2">
+        <a href="#">Heading as Link</a>
       </Heading>
       <p className="text-muted-foreground text-sm">
-        Use the <code>as</code> prop to override the rendered HTML element for
-        accessibility.
+        Use <code>asChild</code> to merge props with your child element.
       </p>
     </div>
   );

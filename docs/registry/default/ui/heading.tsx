@@ -55,38 +55,15 @@ const headingVariants = cva("", {
   },
 });
 
-export type HeadingAsElement = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div";
-
-/** Extracts ref type for the polymorphic element */
-type PolymorphicRef<C extends React.ElementType> =
-  React.ComponentPropsWithRef<C>["ref"];
-
-/** Props that change based on `as` – element-specific attributes and ref */
-type PolymorphicComponentPropsWithRef<
-  C extends HeadingAsElement,
-  Props extends object,
-> = Omit<React.ComponentPropsWithoutRef<C>, keyof Props> &
-  Props & { as?: C } & { ref?: PolymorphicRef<C> };
-
-interface HeadingPropsBase extends VariantProps<typeof headingVariants> {
-  asChild?: boolean;
-  as?: HeadingAsElement;
-}
-
-export type HeadingProps<C extends HeadingAsElement = "h1"> =
-  PolymorphicComponentPropsWithRef<C, HeadingPropsBase>;
-
-type HeadingComponent = (<C extends HeadingAsElement = "h1">(
-  props: HeadingProps<C>,
-) => React.ReactElement | null) & {
-  displayName?: string;
-};
-
-const Heading = React.forwardRef(
-  <C extends HeadingAsElement = "h1">(
+const Heading = React.forwardRef<
+  HTMLHeadingElement,
+  React.ComponentPropsWithoutRef<"h1"> &
+    VariantProps<typeof headingVariants> & { asChild?: boolean }
+>(
+  (
     {
       className,
-      size,
+      size = "h1",
       weight,
       muted,
       tracking,
@@ -94,15 +71,16 @@ const Heading = React.forwardRef(
       balance,
       truncate,
       asChild = false,
-      as,
       ...props
-    }: HeadingProps<C>,
-    ref: PolymorphicRef<C>,
+    },
+    ref,
   ) => {
-    const Comp = asChild ? Slot : (as ?? size ?? "h1");
+    const Comp = asChild ? Slot : (size ?? "h1");
 
     return (
       <Comp
+        data-slot="heading"
+        ref={ref}
         className={cn(
           headingVariants({
             size,
@@ -115,12 +93,11 @@ const Heading = React.forwardRef(
             className,
           }),
         )}
-        ref={ref}
         {...props}
       />
     );
   },
-) as HeadingComponent;
+);
 
 Heading.displayName = "Heading";
 

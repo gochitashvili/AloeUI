@@ -205,17 +205,17 @@ export const Index: Record<string, any> = {
       source: "",
       chunks: []
     },
-    "heading-as-demo": {
-      name: "heading-as-demo",
+    "heading-asChild-demo": {
+      name: "heading-asChild-demo",
       description: "",
       type: "registry:example",
       registryDependencies: ["heading"],
       files: [{
-        path: "registry/default/examples/heading-as-demo.tsx",
+        path: "registry/default/examples/heading-asChild-demo.tsx",
         type: "registry:example",
         target: ""
       }],
-      component: React.lazy(() => import("@/registry/default/examples/heading-as-demo.tsx")),
+      component: React.lazy(() => import("@/registry/default/examples/heading-asChild-demo.tsx")),
       source: "",
       chunks: []
     },

@@ -1,0 +1,15 @@
+{
+  "name": "heading-asChild-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-asChild-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingAsChildDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Heading asChild size=\"h2\">\n        <a href=\"#\">Heading as Link</a>\n      </Heading>\n      <p className=\"text-muted-foreground text-sm\">\n        Use <code>asChild</code> to merge props with your child element.\n      </p>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

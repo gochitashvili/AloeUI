@@ -1,29 +1,12 @@
 ---
 title: Heading
-description: A high-performance, fully polymorphic typography component designed to handle semantic hierarchy and visual styling with surgical precision.
+description: "A semantic typography component that bridges the gap between design flexibility and HTML structure. It follows the Shadcn/ui philosophy: clean code, predictable behavior, and high customizability."
 preview: true
 links:
   api: /docs/components/heading#api-reference
 ---
 
-## Why AloeUI Heading?
-
-While standard UI libraries often couple semantic tags with visual styles, AloeUI decouples them, allowing you to maintain perfect SEO hierarchy without compromising your design system's integrity.
-
-## Key Features
-
-- **True Polymorphism**: Built with advanced TypeScript generics, it adapts its underlying HTML element and strictly validates attributes based on the `as` prop. Whether it's an h1 or a div, your refs and types remain 100% accurate.
-- **Atomic Typography Control**: Fine-tune tracking (letter-spacing) and leading (line-height) through dedicated props. No more "fighting" with global styles for specific hero sections.
-- **Intelligent Defaults**: Optimized for modern SaaS aesthetics with `tracking-tight` and `text-balance` enabled by default, ensuring your headlines look premium out of the box.
-- **Layout Safety**: Includes a `truncate` prop for overflow management and `balance` for preventing "orphaned" words in multi-line headings.
-
-## Under the Hood
-
-For the technical audience, here is why this implementation is superior:
-
-- **Semantic Mapping**: The component intelligently infers the HTML tag from the `size` prop if `as` is not provided. This enforces accessibility best practices by default.
-- **Radix Slot Integration**: Full support for the `asChild` pattern, allowing seamless integration with animation libraries like Framer Motion or complex functional wrappers.
-- **Type-Safe Ref Forwarding**: Unlike basic implementations that use `any` or loose `HTMLElement` types, this component uses a `PolymorphicRef` pattern to ensure the ref object matches the actual rendered DOM element.
+A semantic typography component that bridges the gap between design flexibility and HTML structure. It follows the Shadcn/ui philosophy: clean code, predictable behavior, and high customizability.
 
 <ComponentTabs name="heading-demo" />
 
@@ -85,11 +68,11 @@ Adjust letter spacing and line height.
 
 <ComponentTabs name="heading-balance-truncate-demo" />
 
-### Semantic override
+### asChild
 
-Change the rendered HTML element with the `as` prop.
+Use <code>asChild</code> to merge props with your child element (e.g. Link, motion.div).
 
-<ComponentTabs name="heading-as-demo" />
+<ComponentTabs name="heading-asChild-demo" />
 
 ## API Reference
 

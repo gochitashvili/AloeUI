@@ -183,13 +183,13 @@
       "type": "registry:example"
     },
     {
-      "name": "heading-as-demo",
+      "name": "heading-asChild-demo",
       "registryDependencies": [
         "heading"
       ],
       "files": [
         {
-          "path": "examples/heading-as-demo.tsx",
+          "path": "examples/heading-asChild-demo.tsx",
           "type": "registry:example"
         }
       ],
