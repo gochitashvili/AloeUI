@@ -14,4 +14,3 @@ export default function HeadingDemo(): React.ReactElement {
     </div>
   );
 }
-

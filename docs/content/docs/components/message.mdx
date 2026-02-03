@@ -1,6 +1,6 @@
 ---
 title: Message
-description: A message container component. Purpose and variants can be extended later.
+description: A message container component.
 preview: true
 links:
   api: /docs/components/message#api-reference
@@ -20,7 +20,7 @@ npx shadcn@latest add @aloeui/message
 
 <Steps>
   <Step>
-    Install the following dependencies:
+    Install the following dependencies. MessageAction uses button variants, so ensure the Button component is installed.
 
     ```package-install
     @radix-ui/react-slot class-variance-authority
@@ -35,27 +35,48 @@ npx shadcn@latest add @aloeui/message
 
 ## Layout
 
-Message has **variant** (user / ai), **size** (default / sm / lg), and **state** (default / loading / error). Class names are left empty so you can style via your own CSS. The root element gets `data-variant`, `data-size`, and `data-state` for attribute selectors.
+Message is a container for chat-style messages. Use `variant` (user/ai), `align` (start/center/end), and `streaming` for AI responses. Style via `className` or `data-slot` selectors.
 
 ```tsx
-import { Message } from "@/components/ui/message";
+import { Message, MessageContent } from "@/components/ui/message";
 
 export function Example() {
   return (
     <div className="flex flex-col gap-2">
-      <Message variant="user">User message</Message>
-      <Message variant="ai" state="loading">AI thinking…</Message>
-      <Message variant="ai" size="sm" state="error">Error</Message>
+      <Message variant="user" align="end">
+        <MessageContent>User message</MessageContent>
+      </Message>
+      <Message variant="ai" align="start">
+        <MessageContent>AI response</MessageContent>
+      </Message>
     </div>
   );
 }
 ```
 
-With `asChild`, the Message merges its props and styles onto the child element:
+Use `MessageActions` and `MessageAction` for action buttons (e.g. copy, retry). Set `MessageActions variant="hover"` for hover-reveal. `MessageAction` renders as a button with `variant`, `size`, and `asChild` support:
 
 ```tsx
-<Message asChild>
-  <article>Rendered as article with message styles</article>
+import { CopyIcon } from "lucide-react";
+import { Message, MessageContent, MessageActions, MessageAction } from "@/components/ui/message";
+
+<Message variant="user" align="end">
+  <MessageContent>User message</MessageContent>
+  <MessageActions variant="hover">
+    <MessageAction variant="ghost" size="icon-sm">
+      <CopyIcon className="size-3.5" />
+    </MessageAction>
+  </MessageActions>
+</Message>
+```
+
+## Streaming
+
+Set `streaming={true}` for AI responses that are being generated. This adds a shimmer effect and fades the trailing text edge.
+
+```tsx
+<Message variant="ai" streaming>
+  <MessageContent>Streaming response…</MessageContent>
 </Message>
 ```
 

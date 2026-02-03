@@ -3,35 +3,27 @@ import type { CompositionProps, EmptyProps } from "@/types";
 /**
  * Props for the `Message` component.
  *
- * Renders a message container with variant (user/ai), size, and state.
- * Styles are left empty for custom styling via data attributes or class overrides.
+ * Renders a message container with user/ai variants.
  */
 export interface MessageProps extends EmptyProps<"div">, CompositionProps {
   /**
-   * Message type: user or ai.
+   * Message variant: user or ai.
    *
    * @default "user"
    */
   variant?: "user" | "ai";
 
   /**
-   * Size of the message.
+   * Content alignment.
    *
-   * @default "default"
+   * @default "start"
    */
-  size?: "default" | "sm" | "lg";
+  align?: "start" | "center" | "end";
 
   /**
-   * Visual/UX state (e.g. for loading or error styling).
-   *
-   * @default "default"
-   */
-  state?: "default" | "loading" | "error";
-
-  /**
-   * Whether to merge props with the immediate child using `@radix-ui/react-slot`.
+   * When true, applies streaming styles (shimmer, mask fade).
    *
    * @default false
    */
-  asChild?: boolean;
+  streaming?: boolean;
 }
