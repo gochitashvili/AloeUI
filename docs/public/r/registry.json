@@ -38,6 +38,20 @@
       "type": "registry:ui"
     },
     {
+      "name": "paragraph",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "path": "ui/paragraph.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
       "name": "utils",
       "dependencies": [
         "clsx",
@@ -190,6 +204,97 @@
       "files": [
         {
           "path": "examples/heading-asChild-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-size-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-size-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-weight-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-weight-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-muted-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-muted-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-leading-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-leading-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-truncate-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-truncate-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "paragraph-asChild-demo",
+      "registryDependencies": [
+        "paragraph"
+      ],
+      "files": [
+        {
+          "path": "examples/paragraph-asChild-demo.tsx",
           "type": "registry:example"
         }
       ],

@@ -1,0 +1,15 @@
+{
+  "name": "paragraph-demo",
+  "registryDependencies": [
+    "paragraph"
+  ],
+  "files": [
+    {
+      "path": "examples/paragraph-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Paragraph } from \"@/registry/default/ui/paragraph\";\n\nexport default function ParagraphDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-4\">\n      <Paragraph size=\"xs\">Extra small body text.</Paragraph>\n      <Paragraph size=\"sm\">Small body text.</Paragraph>\n      <Paragraph size=\"base\">Base body text.</Paragraph>\n      <Paragraph size=\"lg\">Large body text.</Paragraph>\n      <Paragraph size=\"xl\">Extra large body text.</Paragraph>\n      <Paragraph size=\"2xl\">2XL body text.</Paragraph>\n      <Paragraph size=\"3xl\">3XL body text.</Paragraph>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

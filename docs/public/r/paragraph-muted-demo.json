@@ -1,0 +1,15 @@
+{
+  "name": "paragraph-muted-demo",
+  "registryDependencies": [
+    "paragraph"
+  ],
+  "files": [
+    {
+      "path": "examples/paragraph-muted-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Paragraph } from \"@/registry/default/ui/paragraph\";\n\nexport default function ParagraphMutedDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Paragraph size=\"base\">Paragraph</Paragraph>\n      <Paragraph size=\"base\" muted>\n        Paragraph\n      </Paragraph>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

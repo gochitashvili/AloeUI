@@ -37,6 +37,20 @@ export const Index: Record<string, any> = {
       source: "",
       chunks: []
     },
+    "paragraph": {
+      name: "paragraph",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/paragraph.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/paragraph.tsx")),
+      source: "",
+      chunks: []
+    },
     "utils": {
       name: "utils",
       description: "",
@@ -216,6 +230,104 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/examples/heading-asChild-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-demo": {
+      name: "paragraph-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-size-demo": {
+      name: "paragraph-size-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-size-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-size-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-weight-demo": {
+      name: "paragraph-weight-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-weight-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-weight-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-muted-demo": {
+      name: "paragraph-muted-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-muted-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-muted-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-leading-demo": {
+      name: "paragraph-leading-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-leading-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-leading-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-truncate-demo": {
+      name: "paragraph-truncate-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-truncate-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-truncate-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "paragraph-asChild-demo": {
+      name: "paragraph-asChild-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["paragraph"],
+      files: [{
+        path: "registry/default/examples/paragraph-asChild-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/paragraph-asChild-demo.tsx")),
       source: "",
       chunks: []
     },

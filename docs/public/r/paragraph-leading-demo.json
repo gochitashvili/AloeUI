@@ -1,0 +1,15 @@
+{
+  "name": "paragraph-leading-demo",
+  "registryDependencies": [
+    "paragraph"
+  ],
+  "files": [
+    {
+      "path": "examples/paragraph-leading-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Paragraph } from \"@/registry/default/ui/paragraph\";\n\nexport default function ParagraphLeadingDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-4 max-w-md\">\n      <div>\n        <span className=\"text-muted-foreground mb-1 block text-sm\">\n          leading=&quot;snug&quot;\n        </span>\n        <Paragraph size=\"base\" leading=\"snug\">\n          The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit\n          amet, consectetur adipiscing elit.\n        </Paragraph>\n      </div>\n      <div>\n        <span className=\"text-muted-foreground mb-1 block text-sm\">\n          leading=&quot;normal&quot;\n        </span>\n        <Paragraph size=\"base\" leading=\"normal\">\n          The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit\n          amet, consectetur adipiscing elit.\n        </Paragraph>\n      </div>\n      <div>\n        <span className=\"text-muted-foreground mb-1 block text-sm\">\n          leading=&quot;relaxed&quot;\n        </span>\n        <Paragraph size=\"base\" leading=\"relaxed\">\n          The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit\n          amet, consectetur adipiscing elit.\n        </Paragraph>\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

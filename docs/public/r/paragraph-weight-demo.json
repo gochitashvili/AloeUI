@@ -1,0 +1,15 @@
+{
+  "name": "paragraph-weight-demo",
+  "registryDependencies": [
+    "paragraph"
+  ],
+  "files": [
+    {
+      "path": "examples/paragraph-weight-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Paragraph } from \"@/registry/default/ui/paragraph\";\n\nexport default function ParagraphWeightDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Paragraph size=\"base\" weight=\"normal\">\n        Paragraph\n      </Paragraph>\n      <Paragraph size=\"base\" weight=\"medium\">\n        Paragraph\n      </Paragraph>\n      <Paragraph size=\"base\" weight=\"semibold\">\n        Paragraph\n      </Paragraph>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

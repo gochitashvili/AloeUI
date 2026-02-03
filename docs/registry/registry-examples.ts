@@ -78,4 +78,81 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "paragraph-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-size-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-size-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-weight-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-weight-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-muted-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-muted-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-leading-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-leading-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-truncate-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-truncate-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "paragraph-asChild-demo",
+    type: "registry:example",
+    registryDependencies: ["paragraph"],
+    files: [
+      {
+        path: "examples/paragraph-asChild-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ];

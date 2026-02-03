@@ -1,0 +1,82 @@
+---
+title: Paragraph
+description: "A foundational typography component optimized for legibility and rhythmic flow. It streamlines body text management by providing a standardized scale for sizes and line-heights, ensuring your content remains perfectly readable across all screen sizes while adhering to the Shadcn/ui design principles."
+preview: true
+links:
+  api: /docs/components/paragraph#api-reference
+---
+
+<Callout type="info" title="Author's Note">
+While headlines grab attention, paragraphs carry the message. This component is built to prioritize readability. By offering pre-defined scale sizes and refined line-heights (leading), the Paragraph component ensures that long-form content remains legible and aesthetically consistent with the rest of the AloeUI design system, effectively eliminating the visual "noise" of inconsistent body text.
+</Callout>
+
+<ComponentTabs name="paragraph-demo" />
+
+## Installation
+
+### CLI
+
+```package-install
+npx shadcn@latest add @aloeui/paragraph
+```
+
+### Manual
+
+<Steps>
+  <Step>
+    Install the following dependencies:
+
+    ```package-install
+    @radix-ui/react-slot class-variance-authority
+    ```
+  </Step>
+  <Step>
+    Copy and paste the following code into your project.
+
+    <ComponentSource name="paragraph" />
+  </Step>
+</Steps>
+
+## Examples
+
+### Size
+
+Choose the appropriate size (xs, sm, base, lg, xl, 2xl, 3xl).
+
+<ComponentTabs name="paragraph-size-demo" />
+
+### Weight
+
+Control font weight with the <code>weight</code> prop.
+
+<ComponentTabs name="paragraph-weight-demo" />
+
+### Muted
+
+Use <code>muted</code> for secondary text.
+
+<ComponentTabs name="paragraph-muted-demo" />
+
+### Leading
+
+Adjust line height for body text.
+
+<ComponentTabs name="paragraph-leading-demo" />
+
+### Truncate
+
+Truncate with ellipsis when overflow.
+
+<ComponentTabs name="paragraph-truncate-demo" />
+
+### asChild
+
+Use <code>asChild</code> to merge props with your child element (e.g. Link).
+
+<ComponentTabs name="paragraph-asChild-demo" />
+
+## API Reference
+
+### Paragraph
+
+<AutoTypeTable path="types/docs/paragraph.ts" name="ParagraphProps" />

@@ -1,0 +1,16 @@
+{
+  "name": "paragraph",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+  ],
+  "files": [
+    {
+      "path": "ui/paragraph.tsx",
+      "content": "import { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\nimport * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst paragraphVariants = cva(\"\", {\n  variants: {\n    size: {\n      xs: \"text-xs\",\n      sm: \"text-sm\",\n      base: \"text-base\",\n      lg: \"text-lg\",\n      xl: \"text-xl\",\n      \"2xl\": \"text-2xl\",\n      \"3xl\": \"text-3xl\",\n    },\n    weight: {\n      normal: \"font-normal\",\n      medium: \"font-medium\",\n      semibold: \"font-semibold\",\n    },\n    muted: {\n      false: \"text-foreground\",\n      true: \"text-muted-foreground\",\n    },\n    leading: {\n      snug: \"leading-snug\",\n      normal: \"leading-normal\",\n      relaxed: \"leading-relaxed\",\n    },\n    truncate: {\n      true: \"truncate\",\n      false: \"\",\n    },\n  },\n  defaultVariants: {\n    size: \"base\",\n    weight: \"normal\",\n    muted: false,\n    leading: \"normal\",\n    truncate: false,\n  },\n});\n\nconst Paragraph = React.forwardRef<\n  HTMLParagraphElement,\n  React.ComponentPropsWithoutRef<\"p\"> &\n    VariantProps<typeof paragraphVariants> & { asChild?: boolean }\n>(\n  (\n    {\n      className,\n      size = \"base\",\n      weight,\n      muted,\n      leading,\n      truncate,\n      asChild = false,\n      ...props\n    },\n    ref,\n  ) => {\n    const Comp = asChild ? Slot : \"p\";\n\n    return (\n      <Comp\n        data-slot=\"paragraph\"\n        ref={ref}\n        className={cn(\n          paragraphVariants({\n            size,\n            weight,\n            muted,\n            leading,\n            truncate,\n            className,\n          }),\n        )}\n        {...props}\n      />\n    );\n  },\n);\n\nParagraph.displayName = \"Paragraph\";\n\nexport { Paragraph, paragraphVariants };\n",
+      "type": "registry:ui",
+      "target": ""
+    }
+  ],
+  "type": "registry:ui"
+}

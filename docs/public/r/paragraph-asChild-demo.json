@@ -1,0 +1,15 @@
+{
+  "name": "paragraph-asChild-demo",
+  "registryDependencies": [
+    "paragraph"
+  ],
+  "files": [
+    {
+      "path": "examples/paragraph-asChild-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Paragraph } from \"@/registry/default/ui/paragraph\";\n\nexport default function ParagraphAsChildDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Paragraph asChild size=\"base\">\n        <a href=\"#\">Paragraph as Link</a>\n      </Paragraph>\n      <p className=\"text-muted-foreground text-sm\">\n        Use <code>asChild</code> to merge props with your child element.\n      </p>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

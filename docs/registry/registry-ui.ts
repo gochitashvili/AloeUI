@@ -12,4 +12,15 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "paragraph",
+    type: "registry:ui",
+    dependencies: ["@radix-ui/react-slot", "class-variance-authority"],
+    files: [
+      {
+        path: "ui/paragraph.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ];

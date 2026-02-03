@@ -12,5 +12,19 @@
       }
     ],
     "type": "registry:ui"
+  },
+  {
+    "name": "paragraph",
+    "dependencies": [
+      "@radix-ui/react-slot",
+      "class-variance-authority"
+    ],
+    "files": [
+      {
+        "path": "ui/paragraph.tsx",
+        "type": "registry:ui"
+      }
+    ],
+    "type": "registry:ui"
   }
 ]
