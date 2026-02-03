@@ -118,6 +118,84 @@
       "type": "registry:example"
     },
     {
+      "name": "heading-size-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-size-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-weight-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-weight-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-muted-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-muted-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-tracking-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-tracking-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-balance-truncate-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-balance-truncate-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
+      "name": "heading-as-demo",
+      "registryDependencies": [
+        "heading"
+      ],
+      "files": [
+        {
+          "path": "examples/heading-as-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "type": "registry:example"
+    },
+    {
       "name": "client-only",
       "files": [
         {

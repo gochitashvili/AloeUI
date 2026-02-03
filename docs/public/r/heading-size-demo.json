@@ -1,0 +1,15 @@
+{
+  "name": "heading-size-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-size-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingSizeDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Heading size=\"h1\">Heading</Heading>\n      <Heading size=\"h2\">Heading</Heading>\n      <Heading size=\"h3\">Heading</Heading>\n      <Heading size=\"h4\">Heading</Heading>\n      <Heading size=\"h5\">Heading</Heading>\n      <Heading size=\"h6\">Heading</Heading>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

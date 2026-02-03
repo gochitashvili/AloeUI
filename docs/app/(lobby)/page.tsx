@@ -16,7 +16,7 @@ export default function IndexPage() {
   return (
     <section className="container flex flex-col items-center justify-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-5xl flex-col items-center gap-4 text-center">
-        <Heading variant="h1">Accessible components for shadcn/ui</Heading>
+        <Heading size="h1">Accessible components for shadcn/ui</Heading>
         <p
           className="max-w-2xl animate-fade-up text-balance text-center font-light text-lg text-muted-foreground opacity-0 md:text-xl"
           style={{ animationDelay: "0.30s", animationFillMode: "forwards" }}

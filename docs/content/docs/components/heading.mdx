@@ -1,10 +1,29 @@
 ---
 title: Heading
-description: A typographic heading component with responsive variants for h1–h6.
+description: A high-performance, fully polymorphic typography component designed to handle semantic hierarchy and visual styling with surgical precision.
 preview: true
 links:
   api: /docs/components/heading#api-reference
 ---
+
+## Why AloeUI Heading?
+
+While standard UI libraries often couple semantic tags with visual styles, AloeUI decouples them, allowing you to maintain perfect SEO hierarchy without compromising your design system's integrity.
+
+## Key Features
+
+- **True Polymorphism**: Built with advanced TypeScript generics, it adapts its underlying HTML element and strictly validates attributes based on the `as` prop. Whether it's an h1 or a div, your refs and types remain 100% accurate.
+- **Atomic Typography Control**: Fine-tune tracking (letter-spacing) and leading (line-height) through dedicated props. No more "fighting" with global styles for specific hero sections.
+- **Intelligent Defaults**: Optimized for modern SaaS aesthetics with `tracking-tight` and `text-balance` enabled by default, ensuring your headlines look premium out of the box.
+- **Layout Safety**: Includes a `truncate` prop for overflow management and `balance` for preventing "orphaned" words in multi-line headings.
+
+## Under the Hood
+
+For the technical audience, here is why this implementation is superior:
+
+- **Semantic Mapping**: The component intelligently infers the HTML tag from the `size` prop if `as` is not provided. This enforces accessibility best practices by default.
+- **Radix Slot Integration**: Full support for the `asChild` pattern, allowing seamless integration with animation libraries like Framer Motion or complex functional wrappers.
+- **Type-Safe Ref Forwarding**: Unlike basic implementations that use `any` or loose `HTMLElement` types, this component uses a `PolymorphicRef` pattern to ensure the ref object matches the actual rendered DOM element.
 
 <ComponentTabs name="heading-demo" />
 
@@ -33,38 +52,47 @@ npx shadcn@latest add @aloeui/heading
   </Step>
 </Steps>
 
-## Layout
+## Examples
 
-Import the `Heading` component and choose the appropriate variant.
+### Size
 
-```tsx
-import { Heading } from "@/components/ui/heading";
+Choose the appropriate size (h1–h6).
 
-export function Example() {
-  return (
-    <div className="space-y-4">
-      <Heading variant="h1">Heading 1</Heading>
-      <Heading variant="h2">Heading 2</Heading>
-      <Heading variant="h3">Heading 3</Heading>
-      <Heading variant="h4">Heading 4</Heading>
-      <Heading variant="h5">Heading 5</Heading>
-      <Heading variant="h6">Heading 6</Heading>
-    </div>
-  );
-}
-```
+<ComponentTabs name="heading-size-demo" />
 
-You can also change the rendered HTML element using the `as` prop:
+### Weight
 
-```tsx
-<Heading as="h3" variant="h1">
-  Visually h1, semantically h3
-</Heading>
-```
+Control font weight with the `weight` prop.
+
+<ComponentTabs name="heading-weight-demo" />
+
+### Muted
+
+Use `muted` for secondary headings.
+
+<ComponentTabs name="heading-muted-demo" />
+
+### Tracking & Leading
+
+Adjust letter spacing and line height.
+
+<ComponentTabs name="heading-tracking-demo" />
+
+### Balance & Truncate
+
+- `balance` (default: true) — enables `text-balance` for multi-line headings.
+- `truncate` — truncates with ellipsis when overflow.
+
+<ComponentTabs name="heading-balance-truncate-demo" />
+
+### Semantic override
+
+Change the rendered HTML element with the `as` prop.
+
+<ComponentTabs name="heading-as-demo" />
 
 ## API Reference
 
 ### Heading
 
 <AutoTypeTable path="types/docs/heading.ts" name="HeadingProps" />
-

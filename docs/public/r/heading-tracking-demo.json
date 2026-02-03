@@ -1,0 +1,15 @@
+{
+  "name": "heading-tracking-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-tracking-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingTrackingDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Heading size=\"h2\" tracking=\"tight\" leading=\"tight\">\n        Heading\n      </Heading>\n      <Heading size=\"h2\" tracking=\"normal\" leading=\"normal\">\n        Heading\n      </Heading>\n      <Heading size=\"h2\" tracking=\"wide\" leading=\"normal\">\n        Heading\n      </Heading>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

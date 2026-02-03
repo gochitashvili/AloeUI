@@ -1,0 +1,15 @@
+{
+  "name": "heading-balance-truncate-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-balance-truncate-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingBalanceTruncateDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-4\">\n      <div>\n        <span className=\"text-muted-foreground mb-2 block text-sm\">\n          balance (default: true)\n        </span>\n        <Heading size=\"h4\" balance={false}>\n          Heading\n        </Heading>\n      </div>\n      <div>\n        <span className=\"text-muted-foreground mb-2 block text-sm\">\n          truncate\n        </span>\n        <div className=\"w-48\">\n          <Heading size=\"h4\" truncate>\n            Heading\n          </Heading>\n        </div>\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

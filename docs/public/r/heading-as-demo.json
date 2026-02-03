@@ -1,0 +1,15 @@
+{
+  "name": "heading-as-demo",
+  "registryDependencies": [
+    "heading"
+  ],
+  "files": [
+    {
+      "path": "examples/heading-as-demo.tsx",
+      "content": "import type * as React from \"react\";\n\nimport { Heading } from \"@/registry/default/ui/heading\";\n\nexport default function HeadingAsDemo(): React.ReactElement {\n  return (\n    <div className=\"flex flex-col gap-2\">\n      <Heading as=\"h3\" size=\"h1\">\n        Heading\n      </Heading>\n      <p className=\"text-muted-foreground text-sm\">\n        Use the <code>as</code> prop to override the rendered HTML element for\n        accessibility.\n      </p>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ],
+  "type": "registry:example"
+}

@@ -2,7 +2,7 @@ import type * as React from "react";
 
 import { Heading } from "@/registry/default/ui/heading";
 
-export default function HeadingDemo(): React.ReactElement {
+export default function HeadingSizeDemo(): React.ReactElement {
   return (
     <div className="flex flex-col gap-2">
       <Heading size="h1">Heading</Heading>

@@ -3,28 +3,65 @@ import type { CompositionProps, EmptyProps } from "@/types";
 /**
  * Props for the `Heading` component.
  *
- * This component renders typographic headings (`h1`–`h6`) with
- * responsive sizes and optional polymorphic rendering.
+ * Renders typographic headings (h1–h6) with responsive sizes,
+ * weight, tracking, leading, and optional polymorphic rendering.
+ *
+ * When using `as`, the `ref` type is inferred from the element:
+ * - `as="h1"` → `React.Ref<HTMLHeadingElement>`
+ * - `as="div"` → `React.Ref<HTMLDivElement>`
  */
-export interface HeadingProps
-  extends EmptyProps<"h1">,
-    CompositionProps {
+export interface HeadingProps extends EmptyProps<"h1">, CompositionProps {
   /**
-   * Visual style of the heading.
-   *
-   * This controls the font size and weight while keeping
-   * the underlying HTML element flexible via the `as` prop.
+   * Visual size of the heading (h1–h6).
    *
    * @default "h1"
    */
-  variant?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  size?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
   /**
-   * Whether to render the component as a child of another component
-   * using `@radix-ui/react-slot`.
+   * Font weight.
    *
-   * When `true`, the `Heading` will not render a DOM node itself
-   * but will instead pass props to its child.
+   * @default "bold"
+   */
+  weight?: "normal" | "medium" | "semibold" | "bold";
+
+  /**
+   * Use muted (secondary) text color.
+   *
+   * @default false
+   */
+  muted?: boolean;
+
+  /**
+   * Letter spacing.
+   *
+   * @default "tight"
+   */
+  tracking?: "tight" | "normal" | "wide";
+
+  /**
+   * Line height.
+   *
+   * @default "tight"
+   */
+  leading?: "none" | "tight" | "snug" | "normal";
+
+  /**
+   * Enable text-balance for multi-line headings.
+   *
+   * @default true
+   */
+  balance?: boolean;
+
+  /**
+   * Truncate with ellipsis when overflow.
+   *
+   * @default false
+   */
+  truncate?: boolean;
+
+  /**
+   * Whether to merge props with the immediate child using `@radix-ui/react-slot`.
    *
    * @default false
    */
@@ -32,12 +69,9 @@ export interface HeadingProps
 
   /**
    * The HTML element to render.
-   *
-   * When `asChild` is `false`, this controls which element is rendered.
-   * When omitted, the value of `variant` is used as the element name.
+   * When omitted, the value of `size` is used.
    *
    * @default "h1"
    */
   as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div";
 }
-

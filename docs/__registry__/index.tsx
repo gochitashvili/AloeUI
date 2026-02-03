@@ -135,6 +135,90 @@ export const Index: Record<string, any> = {
       source: "",
       chunks: []
     },
+    "heading-size-demo": {
+      name: "heading-size-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-size-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-size-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-weight-demo": {
+      name: "heading-weight-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-weight-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-weight-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-muted-demo": {
+      name: "heading-muted-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-muted-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-muted-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-tracking-demo": {
+      name: "heading-tracking-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-tracking-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-tracking-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-balance-truncate-demo": {
+      name: "heading-balance-truncate-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-balance-truncate-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-balance-truncate-demo.tsx")),
+      source: "",
+      chunks: []
+    },
+    "heading-as-demo": {
+      name: "heading-as-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["heading"],
+      files: [{
+        path: "registry/default/examples/heading-as-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/heading-as-demo.tsx")),
+      source: "",
+      chunks: []
+    },
     "client-only": {
       name: "client-only",
       description: "",
